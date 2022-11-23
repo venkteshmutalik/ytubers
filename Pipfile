@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.5.2"
+beautifulsoup4 = "==4.10.0"
+bs4 = "==0.0.1"
+certifi = "==2021.10.8"
+cffi = "==1.14.6"
+chardet = "==4.0.0"
+charset-normalizer = "==2.0.9"
+cryptography = "==35.0.0"
+databases = "==0.5.3"
+distlib = "==0.3.4"
+django = "==4.1"
+filelock = "==3.6.0"
+greenlet = "==1.1.2"
+idna = "==3.3"
+lxml = "==4.7.1"
+"pdfminer.six" = "==20201018"
+pipenv = "==2022.5.2"
+platformdirs = "==2.5.2"
+pycparser = "==2.20"
+requests = "==2.26.0"
+six = "==1.16.0"
+sortedcontainers = "==2.4.0"
+soupsieve = "==2.3.1"
+sqlalchemy = "==1.4.29"
+sqlparse = "==0.4.2"
+tzdata = "==2022.2"
+urllib3 = "==1.26.7"
+virtualenv = "==20.14.1"
+virtualenv-clone = "==0.5.7"
+pillow = "*"
+psycopg2 = "*"
+djangocms-admin-style = "*"
+django-ckeditor = "*"
+django-allauth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
